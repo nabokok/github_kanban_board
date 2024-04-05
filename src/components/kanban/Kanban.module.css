@@ -1,0 +1,33 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+
+.columnWrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.column {
+    padding-block: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    min-width: 260px;
+    overflow-y: auto;
+    background-color: var(--background-color);
+    border-radius: 8px;
+}
+
+.cardWrapper {
+    padding: 10px 20px;
+}
+
+.title {
+    padding: 8px;
+}

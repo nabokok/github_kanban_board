@@ -1,0 +1,12 @@
+.card {
+    color: var(--secondary-color);
+}
+
+.card :global(.ant-card-head-title) {
+    color: var(--text-color);
+}
+
+.cardRow {
+    display: flex;
+    gap: 6px;
+}

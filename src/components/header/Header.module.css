@@ -1,0 +1,7 @@
+.header {
+    padding: 24px 0;
+}
+
+.inputWrapper input:focus {
+    box-shadow: none;
+}
