@@ -16,7 +16,7 @@ const Breadcrumbs = ({ repoInfo }: Props) => {
                 <a className={styles.breadcrumbsItem} href={url} target="_blank">{name}</a>
             </div>
             <div className={styles.stars}>
-                <StarOutlined />
+                <StarOutlined data-testid="star-icon" />
                 {repoInfo.star_count}</div>
         </div>
     )

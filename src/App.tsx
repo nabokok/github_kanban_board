@@ -24,7 +24,6 @@ function App() {
     dispatch(fetchRepo(url))
   }
 
-
   return (
     <>
       {contextHolder}

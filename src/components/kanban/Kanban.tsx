@@ -3,9 +3,9 @@ import { Col, Row } from 'antd';
 import { DragDropContext, Droppable, Draggable, DropResult } from "react-beautiful-dnd";
 import { Issue, Repo } from "../../types/Github";
 import styles from './Kanban.module.css';
-import { move, reorder } from "./kanban.utils";
 import Card from "./card";
 import Breadcrumbs from "./breadcrumbs/Breadcrumbs";
+import { move, reorder } from "./Kanban.utils";
 
 interface Props {
     issues: Issue[],
