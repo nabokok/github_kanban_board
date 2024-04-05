@@ -4,10 +4,10 @@ import repoSlice from './slices/repoSlice';
 
 
 export const store = configureStore({
-    reducer: {
-        issues: issuesSlice,
-        repo: repoSlice
-    },
+  reducer: {
+    issues: issuesSlice,
+    repo: repoSlice
+  },
 });
 
 export type RootState = ReturnType<typeof store.getState>;

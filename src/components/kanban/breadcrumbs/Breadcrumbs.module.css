@@ -1,45 +1,44 @@
-
 .breadcrumbsWrapper {
-    display: flex;
-    align-items: center;
-    gap: 24px;
-    padding-left: 12px;
-    position: sticky;
-    left: 0;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding-left: 12px;
+  position: sticky;
+  left: 0;
 }
 
 .breadcrumbs {
-    display: flex;
-    gap: 8px;
-    align-items: center;
+  display: flex;
+  gap: 8px;
+  align-items: center;
 }
 
 .breadcrumbsItem {
-    position: relative;
-    text-transform: capitalize;
-    cursor: pointer;
-    transition: .3s;
-    color: var(--link-color);
+  position: relative;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: .3s;
+  color: var(--link-color);
 }
 
 .breadcrumbsItem:hover {
-    color: var(--text-color);
+  color: var(--text-color);
 }
 
 .breadcrumbsItem:not(:last-child) {
-    padding-right: 16px;
+  padding-right: 16px;
 }
 
 .breadcrumbsItem:not(:last-child)::after {
-    content: '>';
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+  content: '>';
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .stars {
-    display: flex;
-    align-items: center;
-    gap: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }

@@ -3,20 +3,32 @@
 @import url('./styles/variables.css');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    color: var(--text-color);
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--text-color);
 }
 
 .container {
-    max-width: 1024px;
-    margin: 0 auto;
-    padding-inline: 15px;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-inline: 15px;
+}
+
+input {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+a {
+  font-family: "Nunito Sans", sans-serif;
 }
